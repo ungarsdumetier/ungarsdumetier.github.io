@@ -2244,7 +2244,6 @@ html.no-csstransitions .home-content__main {
     color: #FFFFFF;
     position: relative;
     overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
 }
 
