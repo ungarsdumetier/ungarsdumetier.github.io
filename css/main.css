@@ -2208,8 +2208,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #4070A0;
-    color: #010507;
+    background: linear-gradient(15deg, #4070A0, #000);
+    color: #fff;
     position: relative;
 }
 
@@ -2507,7 +2507,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
-    background: #111111;
+    background: linear-gradient(-30deg, #4070A0, #000);
 }
 
 .works-content {
