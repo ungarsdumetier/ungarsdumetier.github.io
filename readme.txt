@@ -67,3 +67,5 @@ Javascript Files:
 
 
 
+Check Zoner template for marker styling
+http://themestarz.net/html/zoner/index-horizontal-search-floated.html
