@@ -2932,6 +2932,35 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+/* ===================================================================
+ * # distributeurs
+ *
+ * ------------------------------------------------------------------- */
+/* #map {
+    height: 400px;
+    width: 100%;
+} */
+.distrib-map {
+    padding: 0;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0;
+}
+.distrib-map:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.distrib-map .col-full {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}
 
 
 /* ===================================================================
