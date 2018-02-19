@@ -69,3 +69,5 @@ Javascript Files:
 
 Check Zoner template for marker styling
 http://themestarz.net/html/zoner/index-horizontal-search-floated.html
+infowindow
+http://michaelsoriano.com/customize-google-map-info-windows-infobox/
