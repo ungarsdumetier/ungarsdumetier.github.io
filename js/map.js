@@ -510,7 +510,7 @@ function initMap() {
 
     // CHINA
     {
-      position: { lat: 34.4190396, lng: 86.0799497 },
+      position: { lat: 32.0695148, lng: 107.0906273 },
       title: "BD 500",
       url: "http://www.bd500wine.com"
     },
