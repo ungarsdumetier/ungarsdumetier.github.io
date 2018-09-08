@@ -453,6 +453,9 @@
         
         clPreloader();
         clMenuOnScrolldown();
+        
+        initProducts();
+
         clOffCanvas();
         clPhotoswipe();
         clStatCount();
