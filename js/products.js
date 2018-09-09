@@ -1,7 +1,7 @@
 function initProducts() {
   var products = [
     {
-      title: "Pelant jus de pommes à Sydre",
+      title: "Perlant jus de pommes à Sydre",
       category: "Produit de soif",
       caption: "Douceur développant les arômes primaires et doux épices des frutis à cidre. Au plaisir dès le petit déjeuner (viennoiserie et...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
       smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
