@@ -12,7 +12,7 @@ function initProducts() {
     {
       title: "Sidre tendre",
       category: "Produit de soif",
-      caption: "Cidre doux fruité acidulé aux arômes de pommes sauvages de l'automne. Peu alcoolisé - 3.5%/vol. <br/>S'accompagne parfaitement sur les desserts et viennoiserie",
+      caption: "Cidre doux fruité acidulé aux arômes de pommes sauvages de l'automne. Peu alcoolisé - <small>(3.5%/vol)</small>. <br/>S'accompagne parfaitement sur les desserts et viennoiserie",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru.jpg",
       seeMoreUrl: "",
@@ -30,7 +30,7 @@ function initProducts() {
     {
       title: "Sidre brut",
       category: "Produit de soif",
-      caption: "Cidre classique sec, vif, acidulé et rafraichissant l'été - 7%/vol<br/>Charchuterie, volaille, abats",
+      caption: "Cidre classique sec, vif, acidulé et rafraichissant l'été - <small>(7%/vol)</small><br/>Charchuterie, volaille, abats",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru.jpg",
       seeMoreUrl: "",
@@ -39,7 +39,7 @@ function initProducts() {
     {
       title: "Sidre nouvelle vague",
       category: "Produit de soif",
-      caption: "Cidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - 5%/vol",
+      caption: "Cidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - <small>(5%/vol)</small>",
       smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
       detailsImage: "images/produits/sydre-argelette-grand-cru.jpg",
       seeMoreUrl: "",
@@ -48,7 +48,7 @@ function initProducts() {
     {
       title: "Poiré authentique",
       category: "Produit de soif",
-      caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - 4%/vol<br/>En apéritif, avec les produits de la mer et les fromages.",
+      caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - <small>(4%/vol)</small><br/>En apéritif, avec les produits de la mer et les fromages.",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru.jpg",
       seeMoreUrl: "",
@@ -66,7 +66,7 @@ function initProducts() {
     {
       title: "Sydre Argelette",
       category: "Grand Cru",
-      caption: "L'Argelette, désignant le cailloux schisteux, est une cuvée complexe composée du maximum de variétés issues de vieux arbres dans le soucis de respecter le millésime.<br/>Sydre vineux de très bonne garde grâce à son équilibre entre matière, acidité, rondeur, ampleur et minéralité. - 5%/vol selon millésime",
+      caption: "L'Argelette, désignant le cailloux schisteux, est une cuvée complexe composée du maximum de variétés issues de vieux arbres dans le soucis de respecter le millésime.<br/>Sydre vineux de très bonne garde grâce à son équilibre entre matière, acidité, rondeur, ampleur et minéralité. - <small>(5%/vol)</small> selon millésime",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru.jpg",
       seeMoreUrl: "",
@@ -75,7 +75,7 @@ function initProducts() {
     {
       title: "Poiré Granit",
       category: "Grand Cru",
-      caption: "\"Granit\" définit la roche où les racines du poirier plongent dans les failles de granit. Le système racinaire en profondeur du poirier marque sa minéralité. Cet aspect est davantage présent sur cette cuvée issue d'arbres très anciens. Assemblage d'un maximum de variétés dans le respect du millésime - 4%/vol<br/>S'accompagne de la grande cuisine des produits nobles, en apéritif avant de grands vins blancs ou en fin de repas.",
+      caption: "\"Granit\" définit la roche où les racines du poirier plongent dans les failles de granit. Le système racinaire en profondeur du poirier marque sa minéralité. Cet aspect est davantage présent sur cette cuvée issue d'arbres très anciens. Assemblage d'un maximum de variétés dans le respect du millésime - <small>(4%/vol)</small><br/>S'accompagne de la grande cuisine des produits nobles, en apéritif avant de grands vins blancs ou en fin de repas.",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru.jpg",
       seeMoreUrl: "",
