@@ -127,15 +127,15 @@ function initProducts() {
 
 function toBrick(item) {
   return `<div class="masonry__brick" data-aos="fade-up">
-    <div class="item-folio">
+    <div class="item-folio" itemscope itemtype="http://schema.org/Product">
         <div class="item-folio__thumb">
             <a href="${item.detailsImage}" class="thumb-link" title="${item.title}" data-size="800x1200">
-                <img src="${item.smallImage}" alt="">
+                <img src="${item.smallImage}" alt="" itemprop="image">
             </a>
         </div>
 
         <div class="item-folio__text">
-            <h3 class="item-folio__title">
+            <h3 class="item-folio__title" itemprop="name">
                 ${item.title}
             </h3>
             <p class="item-folio__cat">
@@ -148,7 +148,7 @@ function toBrick(item) {
         </a>
 
         <div class="item-folio__caption">
-            <p>${item.caption}</p>
+            <p itemprop="description">${item.caption}</p>
         </div>
 
     </div>
