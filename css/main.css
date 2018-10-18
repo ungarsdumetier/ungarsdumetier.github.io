@@ -3143,7 +3143,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary {
-    width: 35%;
+    width: 100%;
 }
 
 .contact-secondary::before {
@@ -3153,7 +3153,7 @@ html.no-csstransitions .home-content__main {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
+    left: 0;
     background-color: #121212;
 }
 

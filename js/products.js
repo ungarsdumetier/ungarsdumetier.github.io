@@ -4,8 +4,17 @@ function initProducts() {
       title: "Perlant jus de pommes à Sydre",
       category: "Produit de soif",
       caption: "Douceur développant les arômes primaires et doux épices des frutis à cidre. Au plaisir dès le petit déjeuner (viennoiserie et...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
-      smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
-      detailsImage: "images/produits/sydre-argelette-grand-cru.jpg",
+      smallImage: "images/produits/pomme-perlant.jpg",
+      detailsImage: "images/produits/pomme-perlant-details.jpg",
+      seeMoreUrl: "",
+      seeMoreTitle: ""
+    },
+    {
+      title: "Sidre nouvelle vague",
+      category: "Produit de soif",
+      caption: "Cidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - <small>(5%/vol)</small>",
+      smallImage: "images/produits/sidre-nouvelle-vague.jpg",
+      detailsImage: "images/produits/sidre-nouvelle-vague-details.jpg",
       seeMoreUrl: "",
       seeMoreTitle: ""
     },
@@ -33,15 +42,6 @@ function initProducts() {
       caption: "Cidre classique sec, vif, acidulé et rafraichissant l'été - <small>(7%/vol)</small><br/>Charchuterie, volaille, abats",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru.jpg",
-      seeMoreUrl: "",
-      seeMoreTitle: ""
-    },
-    {
-      title: "Sidre nouvelle vague",
-      category: "Produit de soif",
-      caption: "Cidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - <small>(5%/vol)</small>",
-      smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
-      detailsImage: "images/produits/sydre-argelette-grand-cru.jpg",
       seeMoreUrl: "",
       seeMoreTitle: ""
     },
@@ -85,8 +85,8 @@ function initProducts() {
       title: "Cormé",
       category: "Grand Cru",
       caption: "",
-      smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
-      detailsImage: "images/produits/sydre-argelette-grand-cru.jpg",
+      smallImage: "images/produits/corme.jpg",
+      detailsImage: "images/produits/corme-details.jpg",
       seeMoreUrl: "",
       seeMoreTitle: ""
     },
