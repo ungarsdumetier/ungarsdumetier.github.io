@@ -3,7 +3,7 @@ function initProducts() {
     {
       title: "Perlant jus de pommes à Sydre",
       category: "Produit de soif",
-      caption: "Douceur développant les arômes primaires et doux épices des frutis à cidre. Au plaisir dès le petit déjeuner (viennoiserie et...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
+      caption: "Douceur développant les arômes primaires et doux épices des fruits à cidre. Au plaisir dès le petit déjeuner (viennoiserie et...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
       smallImage: "images/produits/pomme-perlant.jpg",
       detailsImage: "images/produits/pomme-perlant-details.jpg",
       seeMoreUrl: "",
@@ -12,7 +12,7 @@ function initProducts() {
     {
       title: "Sidre nouvelle vague",
       category: "Produit de soif",
-      caption: "Cidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - <small>(5%/vol)</small>",
+      caption: "Sidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - <small>(5%/vol)</small>",
       smallImage: "images/produits/sidre-nouvelle-vague.jpg",
       detailsImage: "images/produits/sidre-nouvelle-vague-details.jpg",
       seeMoreUrl: "",
