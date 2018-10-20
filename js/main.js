@@ -199,6 +199,7 @@
         containerBricks.imagesLoaded(function () {
             containerBricks.masonry({
                 itemSelector: '.masonry__brick',
+                // columnWidth: 200,
                 resize: true
             });
         });
