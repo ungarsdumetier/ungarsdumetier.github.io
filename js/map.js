@@ -313,6 +313,14 @@ function initMap() {
   });
 
   var distributors = [
+    // FRANCE
+    {
+      position: { lat: 47.3680556, lng: 0.8872843},
+      title: "Bouquet de loire",
+      address: "32 route de Montlouis-la taille loiseau 37270 Saint Martin Le Beau",
+      phone: "0247508769",
+      email: "contact@bouquetdeloire.com"
+    },
     // GERMANY
     {
       position: { lat: 50.0288887, lng: 7.8230785 },
