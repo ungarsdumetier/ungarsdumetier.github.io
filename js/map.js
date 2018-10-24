@@ -309,7 +309,8 @@ function initMap() {
   });
   var home = new google.maps.Marker({
     position: hauteville,
-    map: map
+    map: map,
+    icon: '/images/home-pin.png'
   });
 
   var distributors = [
@@ -658,7 +659,8 @@ function initMap() {
       position: d.position,
       map: map,
       title: d.title,
-      animation: google.maps.Animation.DROP
+      animation: google.maps.Animation.DROP,
+      icon: '/images/pin.png'
       // label: d.title
     });
 
