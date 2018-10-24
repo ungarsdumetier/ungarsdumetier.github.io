@@ -7,3 +7,9 @@
 .gm-style-iw h5 {
     margin-top: 15px;
 }
+
+#infoWindow h4 {
+    line-height: unset;
+    margin-top: unset;
+    margin-bottom: 12px;
+}

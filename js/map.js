@@ -2,6 +2,7 @@ function initMap() {
   var hauteville = { lat: 48.4258474, lng: -0.3985334 };
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
+    mapTypeControl: false,
     center: hauteville,
     styles: [
       {
@@ -666,27 +667,33 @@ function initMap() {
 
     var infowindow = new google.maps.InfoWindow({
       content:
-        '<div id="content">' +
+        '<div id="infoWindow">' +
         "<h4>" +
         d.title +
         "</h4>" +
         "<p>" +
         (d.description ? "<span>" + d.description + "</span>" : "") +
-        (d.address ? "<br>" + d.address : "") +
+        (d.address 
+          ? '<dl><dt><strong>Addresse</strong></dt><dd>' + d.address + '</dd></dl>' 
+          : '') + 
         (d.phone
-          ? '<br>Tel: <a href="tel:' + d.phone + '">' + d.phone + "</a>"
-          : "") +
+          ? '<dl><dt><strong>Téléphone</strong></dt><dd><a href="tel://' + d.phone+ '">' + d.phone+'</a></dd></dl>' 
+          : '') +
         (d.email
-          ? '<br>e-mail: <a href="mailto://' + d.email + '">' + d.email + "</a>"
-          : "") +
+          ? '<dl><dt><strong>Email</strong></dt><dd><a href="mailto://' + d.email+ '">' + d.email+'</a></dd></dl>' 
+          : '') +
         (d.url
-          ? '<br><a href="' + d.url + '" target="_blank">' + d.url + "</a>"
-          : "") +
-        "</p>" +
+          ? '<dl><dt><strong>Site internet</strong></dt><dd><a href="' + d.url+ '">' + d.url+'</a></dd></dl>' 
+          : '') +
+          "</p>" +
         "</div>"
     });
     marker.addListener("click", function() {
       infowindow.open(map, marker);
+    });
+
+    map.addListener("click", function() {
+      infowindow.close(marker);
     });
   });
 }
