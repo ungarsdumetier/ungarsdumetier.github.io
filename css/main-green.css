@@ -90,7 +90,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: #0087cc;
+    color: #39b54a;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -382,6 +382,7 @@ dt {
 dd {
     margin: 0 0 0 2rem;
 }
+
 
 
 /* ------------------------------------------------------------------- 
@@ -1793,8 +1794,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h3 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 1.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.66);
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
@@ -2201,8 +2202,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
-    color: #010507;
+    background: linear-gradient(15deg, #39b54a, #1b5422);
+    color: #fff;
     position: relative;
 }
 
@@ -2215,6 +2216,9 @@ html.no-csstransitions .home-content__main {
     line-height: 1.75;
     text-align: center;
     max-width: 1024px;
+}
+.about-desc p {
+    text-align: justify;
 }
 
 
@@ -2927,6 +2931,35 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+/* ===================================================================
+ * # distributeurs
+ *
+ * ------------------------------------------------------------------- */
+/* #map {
+    height: 400px;
+    width: 100%;
+} */
+.distrib-map {
+    padding: 0;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0;
+}
+.distrib-map:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.distrib-map .col-full {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}
 
 
 /* ===================================================================
@@ -2938,6 +2971,7 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
+    background-size: cover;
     padding-top: 15rem;
     padding-bottom: 12rem;
     color: rgba(255, 255, 255, 0.5);
@@ -3098,7 +3132,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary {
-    width: 35%;
+    width: 100%;
 }
 
 .contact-secondary::before {
@@ -3108,7 +3142,7 @@ html.no-csstransitions .home-content__main {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
+    left: 0;
     background-color: #121212;
 }
 
