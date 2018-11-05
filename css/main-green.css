@@ -1246,7 +1246,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #39b54a;
+    /* color: #39b54a; */
+    color: black;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2520,6 +2521,7 @@ html.no-csstransitions .home-content__main {
 
 .masonry .grid-sizer, .masonry__brick {
     width: 50%;
+    padding: 5px
 }
 
 .masonry__brick {
