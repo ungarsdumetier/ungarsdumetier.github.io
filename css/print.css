@@ -6,7 +6,8 @@
     .s-home,
     .home-content__buttons,
     .home-content__scroll,
-    .home-content__line {
+    .home-content__line,
+    .print-btn {
         display: none;
     }
 
