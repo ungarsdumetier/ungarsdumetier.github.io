@@ -971,6 +971,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: white;
 }
 
+.corme .drop-cap:first-letter {
+    color: #000000;
+}
+
 
 /* line definition style 
  * ----------------------------------------------- */
