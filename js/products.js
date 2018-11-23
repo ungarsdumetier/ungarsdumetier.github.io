@@ -2,8 +2,8 @@ function initProducts() {
   var products = [
     {
       title: "Perlant jus de pommes à Sydre",
-      category: "Produit de soif<span>330ml ou 750ml</span>",
-      caption: "Douceur développant les arômes primaires et doux épices des fruits à cidre. Au plaisir dès le petit déjeuner (viennoiserie et...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
+      category: "Produit de soif - 330ml ou 750ml",
+      caption: "Douceur développant les arômes primaires et doux épices des fruits à cidre. Au plaisir dès le petit déjeuner (viennoiserie etc...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
       smallImage: "images/produits/pomme-perlant.jpg",
       detailsImage: "images/produits/pomme-perlant-details.jpg",
       seeMoreUrl: "",
@@ -30,7 +30,7 @@ function initProducts() {
     {
       title: "Sidre brut tendre",
       category: "Produit de soif - 750ml",
-      caption: "Cidre demi-sec de bel équilibre, fruit et matière, bon compromis entre le brut et le tendre avec un peu de sucre résiduel - 5/vol<br/>Sur une cuisine simple pouvant accompagner tout le repas.",
+      caption: "Cidre demi-sec de bel équilibre, fruit et matière, bon compromis entre le brut et le tendre avec un peu de sucre résiduel - 5%/vol<br/>Sur une cuisine simple pouvant accompagner tout le repas.",
       smallImage: "images/produits/sidre-brut-tendre.jpg",
       detailsImage: "images/produits/sidre-brut-tendre-details.jpg",
       seeMoreUrl: "",
@@ -111,7 +111,7 @@ function initProducts() {
     {
       title: "Calvados",
       category: "Gastronomie",
-      caption: "En vieillissement en fûts, \"réduction naturelle en cave sous terrainne\"",
+      caption: "En vieillissement en fûts, \"réduction naturelle en cave sous-terrainne\"",
       smallImage: "images/produits/calvados.jpg",
       detailsImage: "images/produits/calvados-details.jpg",
       seeMoreUrl: "",
