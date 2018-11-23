@@ -87,7 +87,7 @@ function initProducts() {
       caption: "Boisson du Maine du 15ème siècle produite familialement jusqu'aux années 50 et remis à la \"technique du jour\" du Domaine Eric Bordelet avec 10 variétés de Cormes",
       smallImage: "images/produits/corme.jpg",
       detailsImage: "images/produits/corme-details.jpg",
-      seeMoreUrl: "",
+      seeMoreUrl: "/corme.html",
       seeMoreTitle: ""
     },
     // {
