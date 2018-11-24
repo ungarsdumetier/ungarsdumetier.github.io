@@ -510,6 +510,14 @@ function initMap() {
       email: "orders@vintageandvine.com"
     },
 
+    // NEW ZEALAND
+    {
+      position: { lat: -41.5143706, lng: 173.8159966 },
+      title: "Wine diamonds",
+      url: "http://www.winediamonds.co.nz",
+      email: "dan@winediamonds.co.nz"
+    },
+
     // JAPAN
     {
       position: { lat: 35.676773, lng: 139.7348462 },
