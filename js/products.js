@@ -18,6 +18,15 @@ function initProducts() {
       seeMoreUrl: "",
       seeMoreTitle: ""
     },
+    // {
+    //   title: "Poiré 33cl",
+    //   category: "Produit de soif - 330ml",
+    //   caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - <small>(4%/vol)</small><br/>En apéritif, avec les produits de la mer et les fromages.",
+    //   smallImage: "images/produits/poire-33.jpg",
+    //   detailsImage: "images/produits/sidre-nouvelle-vague-details.jpg",
+    //   seeMoreUrl: "",
+    //   seeMoreTitle: ""
+    // },
     {
       title: "Sidre tendre",
       category: "Produit de soif - 750ml",
