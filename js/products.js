@@ -86,7 +86,7 @@ function initProducts() {
       category: "Gastronomie - 750ml et magnum 1500ml",
       caption: "\"Granit\" définit la roche où les racines du poirier plongent dans les failles de granit. Le système racinaire en profondeur du poirier marque sa minéralité. Cet aspect est davantage présent sur cette cuvée issue d'arbres très anciens. Assemblage d'un maximum de variétés dans le respect du millésime - <small>(4%/vol)</small><br/>S'accompagne de la grande cuisine des produits nobles, en apéritif avant de grands vins blancs ou en fin de repas.",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
-      detailsImage: "images/produits/poire-granit-grand-cru-details.jpg",
+      detailsImage: "images/produ-its/poire-granit-grand-cru-details.jpg",
       seeMoreUrl: "",
       seeMoreTitle: ""
     },
@@ -94,7 +94,7 @@ function initProducts() {
       title: "Cormé",
       category: "Gastronomie - 500ml",
       caption: "Boisson du Maine du 15ème siècle produite familialement jusqu'aux années 50 et remis à la \"technique du jour\" du Domaine Eric Bordelet avec 10 variétés de Cormes",
-      smallImage: "images/produits/corme.jpg",
+      smallImage: "images/produits/corme-banner.jpg",
       detailsImage: "images/produits/corme-details.jpg",
       seeMoreUrl: "/corme.html",
       seeMoreTitle: ""
