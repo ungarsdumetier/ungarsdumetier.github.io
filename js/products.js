@@ -128,38 +128,36 @@ function initProducts() {
     }
   ];
 
-  var root = $( "#products");
+  var root = $("#products");
   products.forEach(function(p) {
       root.append(toBrick(p));
   })
 }
 
 function toBrick(item) {
-  return `<div class="masonry__brick" data-aos="fade-up">
-    <div class="item-folio" itemscope itemtype="http://schema.org/Product">
-        <div class="item-folio__thumb">
-            <a href="${item.detailsImage}" class="thumb-link" title="${item.title}" data-size="800x1200">
-                <img src="${item.smallImage}" alt="" itemprop="image">
-            </a>
-        </div>
-
-        <div class="item-folio__text">
-            <h3 class="item-folio__title" itemprop="name">
-                ${item.title}
-            </h3>
-            <p class="item-folio__cat">
-                ${item.category}
-            </p>
-        </div>
-
-        <a href="${item.seeMoreUrl}" class="item-folio__project-link" title="${item.seeMoreTitle}">
-            <i class="icon-link"></i>
-        </a>
-
-        <div class="item-folio__caption">
-            <p itemprop="description">${item.caption}</p>
-        </div>
-
-    </div>
-</div>`;
+  return [
+      '<div class="masonry__brick" data-aos="fade-up">',
+      '  <div class="item-folio" itemscope itemtype="http://schema.org/Product">',
+      '      <div class="item-folio__thumb">',
+      '          <a href="' + item.detailsImage + '" class="thumb-link" title="' + item.title + '" data-size="800x1200">',
+      '              <img src="' + item.smallImage + '" alt="" itemprop="image">',
+      '          </a>',
+      '      </div>',
+      '      <div class="item-folio__text">',
+      '          <h3 class="item-folio__title" itemprop="name">',
+      '              ' + item.title + '',
+      '          </h3>',
+      '          <p class="item-folio__cat">',
+      '              ' + item.category + '',
+      '          </p>',
+      '      </div>',
+      '      <a href="' + item.seeMoreUrl +'" class="item-folio__project-link" title="' + item.seeMoreTitle + '">',
+      '          <i class="icon-link"></i>',
+      '      </a>',
+      '      <div class="item-folio__caption">',
+      '          <p itemprop="description">' + item.caption + '</p>',
+      '      </div>',
+      '  </div>',
+      '</div>'
+    ].join('');
 }

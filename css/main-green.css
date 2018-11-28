@@ -2234,6 +2234,11 @@ html.no-csstransitions .home-content__main {
     text-align: center;
 }
 
+.about-desc .h5 {
+    font-weight: bold;
+    /* color: #dd0707; */
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## about stats
