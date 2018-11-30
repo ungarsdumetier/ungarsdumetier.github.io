@@ -612,7 +612,7 @@ function initMap() {
       email: "info@polanerselections.com"
     },
     {
-      position: { lat: 32.6581646, lng: -85.4216177 },
+      position: { lat: 35.9263134, lng: -79.1293797 },
       title: "Authentique Vin",
       url: "http://www.authentiquevin.com"
     },
