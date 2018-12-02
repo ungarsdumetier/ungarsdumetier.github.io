@@ -226,6 +226,10 @@ blockquote {
     position: relative;
 }
 
+.header-nav__content blockquote {
+    color: #39b54a;
+}
+
 .header-nav__content blockquote:before {
     color: white;
 }
