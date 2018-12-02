@@ -134,6 +134,17 @@ function initProducts() {
   })
 }
 
+function seeMoreLink(item) {
+  if (item.seeMoreUrl) {
+    return [
+      '      <a href="' + item.seeMoreUrl +'" class="item-folio__project-link" title="' + item.seeMoreTitle + '">',
+      '          <i class="icon-link"></i>',
+      '      </a>'].join('');
+  } else {
+    return '';
+  }
+}
+
 function toBrick(item) {
   return [
       '<div class="masonry__brick" data-aos="fade-up">',
@@ -151,13 +162,13 @@ function toBrick(item) {
       '              ' + item.category + '',
       '          </p>',
       '      </div>',
-      '      <a href="' + item.seeMoreUrl +'" class="item-folio__project-link" title="' + item.seeMoreTitle + '">',
-      '          <i class="icon-link"></i>',
-      '      </a>',
+            seeMoreLink(item),
       '      <div class="item-folio__caption">',
-      '          <p itemprop="description">' + item.caption + '</p>',
+      '          <p itemprop="description">' + item.caption + (item.seeMoreUrl ? '<br/><a href="' + item.seeMoreUrl+ '">Fiche technique</a>': '') + '</p>',
+      ,
       '      </div>',
       '  </div>',
       '</div>'
     ].join('');
 }
+

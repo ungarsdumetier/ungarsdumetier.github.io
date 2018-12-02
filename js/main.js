@@ -132,7 +132,8 @@
             });
 
             // bind click event
-            $folioItems.each(function(i) {
+            var $clickableFolioItem = $('.item-folio__thumb');
+            $clickableFolioItem.each(function(i) {
 
                 $(this).on('click', function(e) {
                     e.preventDefault();
