@@ -1,10 +1,10 @@
 {
-  "name": "EricBordelet",
+  "name": "Eric Bordelet",
   "short_name": "ericbordelet",
-  "theme_color": "#4070a0",
-  "background_color": "#000000",
+  "theme_color": "#39b54a",
+  "background_color": "#39b54a",
   "display": "standalone",
-  "Scope": "/",
+  "scope": "/",
   "start_url": "/",
   "icons": [
     {
