@@ -18,15 +18,6 @@ function initProducts() {
       seeMoreUrl: "",
       seeMoreTitle: ""
     },
-    // {
-    //   title: "Poiré 33cl",
-    //   category: "Produit de soif - 330ml",
-    //   caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - <small>(4%/vol)</small><br/>En apéritif, avec les produits de la mer et les fromages.",
-    //   smallImage: "images/produits/poire-33.jpg",
-    //   detailsImage: "images/produits/sidre-nouvelle-vague-details.jpg",
-    //   seeMoreUrl: "",
-    //   seeMoreTitle: ""
-    // },
     {
       title: "Sidre tendre",
       category: "Produit de soif - 750ml",
@@ -55,8 +46,17 @@ function initProducts() {
       seeMoreTitle: ""
     },
     {
+      title: "Poiré 33cl",
+      category: "Produit de soif - 330ml",
+      caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - <small>(4%/vol)</small><br/>En apéritif, avec les produits de la mer et les fromages.",
+      smallImage: "images/produits/poire-33.jpg",
+      detailsImage: "images/produits/poire-33-details.jpg",
+      seeMoreUrl: "",
+      seeMoreTitle: ""
+    },
+    {
       title: "Poiré authentique",
-      category: "Produit de soif - 750ml et magnum 1500ml",
+      category: "Produit de traditionnelle cuisine - 750ml et magnum 1500ml",
       caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - <small>(4%/vol)</small><br/>En apéritif, avec les produits de la mer et les fromages.",
       smallImage: "images/produits/poire-authentique.jpg",
       detailsImage: "images/produits/poire-authentique-details.jpg",
