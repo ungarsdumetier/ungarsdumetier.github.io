@@ -31,15 +31,15 @@
             // $('html, body').animate({ scrollTop: 0 }, 'normal');
 
             // will first fade out the loading animation 
-            $("#loader").fadeOut("slow", function() {
+            $("#loader").fadeOut(400, function() {
                 // will fade out the whole DIV that covers the website.
-                $("#preloader").delay(300).fadeOut("slow");
+                $("#preloader").delay(300).fadeOut(400);
             }); 
             
             // for hero content animations 
             $("html").removeClass('cl-preload');
             $("html").addClass('cl-loaded');
-            console.log('href: ', window.location);
+            // console.log('href: ', window.location);
         });
     };
 
