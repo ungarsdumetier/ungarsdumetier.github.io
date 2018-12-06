@@ -3000,8 +3000,8 @@ html.no-csstransitions .home-content__main {
     background-repeat: no-repeat;
     background-position: center, center;
     background-size: cover;
-    padding-top: 15rem;
-    padding-bottom: 12rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -3395,7 +3395,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 2rem 0 2rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3529,7 +3529,7 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    /* margin-top: 5.4rem; */
     text-align: center;
     font-size: 14px;
 }
