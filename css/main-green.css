@@ -2228,13 +2228,15 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
-    font-size: 2.4rem;
-    line-height: 1.75;
+    
+    
     /* text-align: center; */
     max-width: 1024px;
 }
 
 .about-desc blockquote {
+    font-size: 2.4rem;
+    line-height: 1.75;
     text-align: center;
 }
 
@@ -2242,11 +2244,17 @@ html.no-csstransitions .home-content__main {
     font-weight: bold;
     /* color: #dd0707; */
 }
-.about-desc .h6.red {
-    color: #960038;
+.about-desc .h6 {
+    font-weight: bold;
     line-height: unset !important;
     font-size: 1.5rem;
 }
+
+
+.about-desc .h6.red {
+    color: #960038;
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## about stats
