@@ -8,6 +8,7 @@
     .home-content__buttons,
     .home-content__scroll,
     .home-content__line,
+    .no-print,
     .print-btn {
         display: none;
     }
@@ -26,6 +27,7 @@
         background: url('/images/produits/corme.jpg') no-repeat center;
         background-size: cover;
     }
+
 
     .footer-bottom {
         margin-top: 0 !important;
