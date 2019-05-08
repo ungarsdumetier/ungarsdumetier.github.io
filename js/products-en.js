@@ -120,7 +120,7 @@ function initProducts() {
     {
       title: "Calvados",
       category: "Gastronomie",
-      caption: "En vieillissement en fûts, \"réduction naturelle en cave sous-terrainne\"",
+      caption: "Aged in barrels in an underground cellar.",
       smallImage: "images/produits/calvados.jpg",
       detailsImage: "images/produits/calvados-details.jpg",
       seeMoreUrl: "",
