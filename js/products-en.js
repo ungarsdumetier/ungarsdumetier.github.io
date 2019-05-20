@@ -2,7 +2,7 @@ function initProducts() {
   var products = [
     {
       title: "PERLANT / Cider apple juice ",
-      category: "Produit de soif - 330ml ou 750ml",
+      category: "Thirst quenching - 330ml ou 750ml",
       caption: "Full of the gently sweet and spicy aromas of cider apples.  Delicious for breakfast (with pastries, etc..) but above all with a large number of desserts such as mandarin tarte from Alex Croquet in Wattignies..  Taste for yourself and see...",
       smallImage: "images/produits/pomme-perlant.jpg",
       detailsImage: "images/produits/pomme-perlant-details.jpg",
@@ -11,7 +11,7 @@ function initProducts() {
     },
     {
       title: "SIDRE NOUVELLE VAGUE",
-      category: "Produit de soif - 330ml, fût 5L ou 20L",
+      category: "Thirst quenching - 330ml, fût 5L ou 20L",
       caption: "Thirst quenching sidre in 5l kegs or 20l slimline for bars and pubs (3-4 bars pressure). Lightly sparkling to be drunk during a meal, at a buffet, picnic, on a sunny terrace, in a pub… <br/>A good balance between dry and medium cider which will go with a wide range of dishes.",
       smallImage: "images/produits/sidre-nouvelle-vague.jpg",
       detailsImage: "images/produits/sidre-nouvelle-vague-details.jpg",
@@ -20,7 +20,7 @@ function initProducts() {
     },
     {
       title: "SIDRE TENDRE",
-      category: "Produit de soif - 750ml",
+      category: "Thirst quenching - 750ml",
       caption: "Sweet, fruity and slightly acidic aromas of wild autumn apples. Lightly alcoholic <small>(3.5%)</small>.<br/>Perfect with puddings and pastries.",
       smallImage: "images/produits/sidre-tendre.jpg",
       detailsImage: "images/produits/sidre-tendre-details.jpg",
@@ -29,7 +29,7 @@ function initProducts() {
     },
     // {
     //   title: "Sidre brut tendre",
-    //   category: "Produit de soif - 750ml",
+    //   category: "Thirst quenching - 750ml",
     //   caption: "Cidre demi-sec de bel équilibre, fruit et matière, bon compromis entre le brut et le tendre avec un peu de sucre résiduel - 5%/vol<br/>Sur une cuisine simple pouvant accompagner tout le repas.",
     //   smallImage: "images/produits/sidre-brut-tendre.jpg",
     //   detailsImage: "images/produits/sidre-brut-tendre-details.jpg",
@@ -38,7 +38,7 @@ function initProducts() {
     // },
     {
       title: "SIDRE BRUT",
-      category: "Produit de soif - 750ml",
+      category: "Thirst quenching - 750ml",
       caption: "The classic extra dry cider ,small>(7%)</small>. Ideal with charcuterie and cold meats. ",
       smallImage: "images/produits/sidre-brut.jpg",
       detailsImage: "images/produits/sidre-brut-details.jpg",
@@ -47,7 +47,7 @@ function initProducts() {
     },
     {
       title: "POIRÉ 33cl",
-      category: "Produit de soif - 330ml",
+      category: "Thirst quenching - 330ml",
       caption: "Thirst quenching semi dry perry, which depending on the year is more or less pale, fresh and fruity <small>(4%)</small>. <br/>Ideal for an aperitif, with sea food and cheese.",
       smallImage: "images/produits/poire-33.jpg",
       detailsImage: "images/produits/poire-33-details.jpg",
@@ -56,7 +56,7 @@ function initProducts() {
     },
     {
       title: "POIRÉ AUTHENTIQUE",
-      category: "Produit de traditionnelle cuisine - 750ml et magnum 1500ml",
+      category: "With traditional cuisine - 750ml et magnum 1500ml",
       caption: "Thirst quenching semi dry perry, which depending on the year is more or less pale, fresh and fruity <small>(4%)</small>. <br/>Ideal for an aperitif, with sea food and cheese.",
       smallImage: "images/produits/poire-authentique.jpg",
       detailsImage: "images/produits/poire-authentique-details.jpg",
@@ -65,7 +65,7 @@ function initProducts() {
     },
     // {
     //   title: "Poiré",
-    //   category: "Produit de soif - 330ml",
+    //   category: "Thirst quenching - 330ml",
     //   caption: "",
     //   smallImage: "images/produits/poire-authentique.jpg",
     //   detailsImage: "images/produits/poire-authentique-details.jpg",
@@ -74,7 +74,7 @@ function initProducts() {
     // },
     {
       title: "SYDRE ARGELETTE",
-      category: "Gastronomie - 750ml et magnum 1500ml",
+      category: "Gastronomic - 750ml et magnum 1500ml",
       caption: "Argelette, named after the stony schist found locally, is a complex blend and made from the maximum amount of varieties, from the oldest trees that particular year has to offer.<br/>A vinous sydre which keeps well thanks to its balance between matter, acidity, roundness and minerality. <small>(5% depending on the vintage)</small>.",
       smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
       detailsImage: "images/produits/sydre-argelette-grand-cru-details.jpg",
@@ -83,7 +83,7 @@ function initProducts() {
     },
     {
       title: "POIRÉ GRANIT",
-      category: "Gastronomie - 750ml et magnum 1500ml",
+      category: "Gastronomic - 750ml et magnum 1500ml",
       caption: "Granit after the granite seams that the roots of the pear trees stretch down to reach. The deep root system of the pear tree gives it its minerality. This is ever more present in this cuvée which is made from the oldest trees. Made from the maximum amount of varieties available depending on the vintage <small>(4%)</small>. <br/>Ideal with fine cuisines, fine foods, as an aperitif before fine white wines or at the end of a meal.",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru-details.jpg",
@@ -92,7 +92,7 @@ function initProducts() {
     },
     {
       title: "CORMÉ",
-      category: "Gastronomie - 500ml",
+      category: "Gastronomic - 500ml",
       caption: "A family made drink from the region of Maine dating back to the 15<sup>th</sup> century which fell out of favour in the 1950s and brought back up to date by Domaine Eric Bordelet. <br/>Made from 10 different varieties of Corme.",
       smallImage: "images/produits/corme-banner.jpg",
       detailsImage: "images/produits/corme-details.jpg",
@@ -119,7 +119,7 @@ function initProducts() {
     // },
     {
       title: "Calvados",
-      category: "Gastronomie",
+      category: "Gastronomic",
       caption: "Aged in barrels in an underground cellar.",
       smallImage: "images/produits/calvados.jpg",
       detailsImage: "images/produits/calvados-details.jpg",
