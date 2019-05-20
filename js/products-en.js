@@ -56,7 +56,7 @@ function initProducts() {
     },
     {
       title: "POIRÉ AUTHENTIQUE",
-      category: "With traditional cuisine - 750ml et magnum 1500ml",
+      category: "With traditional cuisine - 750ml and magnum1500ml",
       caption: "Thirst quenching semi dry perry, which depending on the year is more or less pale, fresh and fruity <small>(4%)</small>. <br/>Ideal for an aperitif, with sea food and cheese.",
       smallImage: "images/produits/poire-authentique.jpg",
       detailsImage: "images/produits/poire-authentique-details.jpg",
@@ -74,7 +74,7 @@ function initProducts() {
     // },
     {
       title: "SYDRE ARGELETTE",
-      category: "Gastronomic - 750ml et magnum 1500ml",
+      category: "Gastronomic - 750ml and magnum1500ml",
       caption: "Argelette, named after the stony schist found locally, is a complex blend and made from the maximum amount of varieties, from the oldest trees that particular year has to offer.<br/>A vinous sydre which keeps well thanks to its balance between matter, acidity, roundness and minerality. <small>(5% depending on the vintage)</small>.",
       smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
       detailsImage: "images/produits/sydre-argelette-grand-cru-details.jpg",
@@ -83,7 +83,7 @@ function initProducts() {
     },
     {
       title: "POIRÉ GRANIT",
-      category: "Gastronomic - 750ml et magnum 1500ml",
+      category: "Gastronomic - 750ml and magnum1500ml",
       caption: "Granit after the granite seams that the roots of the pear trees stretch down to reach. The deep root system of the pear tree gives it its minerality. This is ever more present in this cuvée which is made from the oldest trees. Made from the maximum amount of varieties available depending on the vintage <small>(4%)</small>. <br/>Ideal with fine cuisines, fine foods, as an aperitif before fine white wines or at the end of a meal.",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru-details.jpg",
