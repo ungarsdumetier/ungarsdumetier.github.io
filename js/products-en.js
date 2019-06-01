@@ -93,7 +93,7 @@ function initProducts() {
     {
       title: "CORMÉ",
       category: "Gastronomic - 500ml",
-      caption: "A family made drink from the region of Maine dating back to the 15<sup>th</sup> century which fell out of favour in the 1950s and brought back up to date by Domaine Eric Bordelet. <br/>Made from 10 different varieties of Corme.",
+      caption: "A family made drink from the region of Maine dating back to the 15<sup>th</sup> century which fell out of favour in the 1950s and brought back up to date by Domaine Eric Bordelet. <br/>Made from several varieties of Corme.",
       smallImage: "images/produits/corme-banner.jpg",
       detailsImage: "images/produits/corme-details.jpg",
       seeMoreUrl: "/corme-en.html",
