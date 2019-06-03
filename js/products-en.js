@@ -27,15 +27,15 @@ function initProducts() {
       seeMoreUrl: "",
       seeMoreTitle: ""
     },
-    // {
-    //   title: "Sidre brut tendre",
-    //   category: "Thirst quenching - 750ml",
-    //   caption: "Cidre demi-sec de bel équilibre, fruit et matière, bon compromis entre le brut et le tendre avec un peu de sucre résiduel - 5%/vol<br/>Sur une cuisine simple pouvant accompagner tout le repas.",
-    //   smallImage: "images/produits/sidre-brut-tendre.jpg",
-    //   detailsImage: "images/produits/sidre-brut-tendre-details.jpg",
-    //   seeMoreUrl: "",
-    //   seeMoreTitle: ""
-    // },
+    {
+      title: "Sidre brut tendre",
+      category: "Thirst quenching - 750ml",
+      caption: "Semi-dry, cider with a good balance between fruit and matter. A good compromise between Brut and Tendre with a little residual sugar – 5% vol<br/> With simple cuisine its can be drunk throughout the meal",
+      smallImage: "images/produits/sidre-brut-tendre.jpg",
+      detailsImage: "images/produits/sidre-brut-tendre-details.jpg",
+      seeMoreUrl: "",
+      seeMoreTitle: ""
+    },
     {
       title: "SIDRE BRUT",
       category: "Thirst quenching - 750ml",
