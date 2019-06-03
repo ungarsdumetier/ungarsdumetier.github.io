@@ -28,7 +28,7 @@ function initProducts() {
       seeMoreTitle: ""
     },
     {
-      title: "Sidre brut tendre",
+      title: "SIDRE BRUT TENDRE",
       category: "Thirst quenching - 750ml",
       caption: "Semi-dry, cider with a good balance between fruit and matter. A good compromise between Brut and Tendre with a little residual sugar – 5% vol<br/> With simple cuisine its can be drunk throughout the meal",
       smallImage: "images/produits/sidre-brut-tendre.jpg",
@@ -39,7 +39,7 @@ function initProducts() {
     {
       title: "SIDRE BRUT",
       category: "Thirst quenching - 750ml",
-      caption: "The classic extra dry cider ,small>(7%)</small>. Ideal with charcuterie and cold meats. ",
+      caption: "The classic extra dry cider ,small>(7%)</small>. Ideal with charcuterie and cold meats.",
       smallImage: "images/produits/sidre-brut.jpg",
       detailsImage: "images/produits/sidre-brut-details.jpg",
       seeMoreUrl: "",
