@@ -661,6 +661,12 @@ function initMap() {
       description: "For Calvados",
       url: "http://www.pmspirits.com",
       email: "info@pmspirits.com"
+    },
+    {
+      position: { lat: 1.2800106, lng: 103.840026 },
+      title: "KOT Selections",
+      address: "64 Neil Road, Singapore 088834",
+      url: "http://www.kotselections.com"
     }
   ];
 
@@ -692,7 +698,7 @@ function initMap() {
           ? '<dl><dt><strong>Email</strong></dt><dd><a href="mailto://' + d.email+ '">' + d.email+'</a></dd></dl>' 
           : '') +
         (d.url
-          ? '<dl><dt><strong>Site internet</strong></dt><dd><a href="' + d.url+ '">' + d.url+'</a></dd></dl>' 
+          ? '<dl><dt><strong>Site internet</strong></dt><dd><a href="' + d.url+ '" target="_blank">' + d.url+'</a></dd></dl>' 
           : '') +
           "</p>" +
         "</div>"
