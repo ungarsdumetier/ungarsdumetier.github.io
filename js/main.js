@@ -31,9 +31,9 @@
             // $('html, body').animate({ scrollTop: 0 }, 'normal');
 
             // will first fade out the loading animation 
-            $("#loader").fadeOut(400, function() {
+            $("#loader").fadeOut(200, function() {
                 // will fade out the whole DIV that covers the website.
-                $("#preloader").delay(300).fadeOut(400);
+                $("#preloader").delay(100).fadeOut(200);
             }); 
             
             // for hero content animations 
