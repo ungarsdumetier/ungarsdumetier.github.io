@@ -496,6 +496,14 @@ function initMap() {
       title: "Manitiba Liquors & Lotteries",
       url: "http://www.mbll.ca"
     },
+    {
+      position: { lat: 43.6083558, lng: -79.5509032 },
+      title: "The living vine",
+      address: "770 Browns Line,<br/> Unit B-03 Toronto,<br/> Ontario M8W3W2",
+      email: "stephanie@thelivingvine.ca",
+      url: "https://www.thelivingvine.ca/",
+      social: "https://instagram.com/thelivingvine"
+    },
 
     // AUSTRALIA
     {
