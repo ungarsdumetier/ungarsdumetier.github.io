@@ -663,10 +663,11 @@ function initMap() {
       email: "info@pmspirits.com"
     },
     {
-      position: { lat: 1.2800106, lng: 103.840026 },
-      title: "KOT Selections",
-      address: "64 Neil Road, Singapore 088834",
-      url: "http://www.kotselections.com"
+      position: { lat: 1.2800209, lng: 103.8449744 },
+      title: "Galiena",
+      address: "Telok Ayer St, SG Singapore",
+      url: "https://www.galiena.sg",
+      email: "sales@galiena.sg"
     }
   ];
 
