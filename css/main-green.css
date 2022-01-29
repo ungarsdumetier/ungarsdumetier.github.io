@@ -368,6 +368,7 @@ ul.disc li {
     list-style: none;
     padding: 0 0 0 .8rem;
     position: relative;
+    text-align: left;
 }
 
 ul.disc li::before {
