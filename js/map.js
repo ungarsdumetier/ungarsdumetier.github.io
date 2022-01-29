@@ -419,12 +419,6 @@ function initMap() {
 
     // FINLAND
     {
-      position: { lat: 60.2757454, lng: 24.2566765 },
-      title: "Vin nature",
-      url: "http://www.vinnature.fi",
-      email: "vinnature@vinnature.fi"
-    },
-    {
       position: { lat: 61.5126475, lng: 23.9278739 },
       title: "AOC51",
       url: "http://www.aoc51.fi"
@@ -482,9 +476,9 @@ function initMap() {
     // CANADA
     {
       position: { lat: 45.585457, lng: -73.520885 },
-      title: "La cuvée",
-      url: "http://www.saq.com",
-      email: "info@lagv.ca"
+      title: "La QV",
+      url: "https://laqv.ca",
+      email: "info@laqv.ca"
     },
     {
       position: { lat: 45.4114473, lng: -75.6948286 },
@@ -529,9 +523,10 @@ function initMap() {
 
     // CHINA
     {
-      position: { lat: 32.0695148, lng: 107.0906273 },
-      title: "BD 500",
-      url: "http://www.bd500wine.com"
+      position: { lat: 39.9390623, lng: 116.257034 },
+      title: "Black Wine Guide",
+      email: "jmnolant@blackwineguide.com",
+      url: "https://fr-fr.facebook.com/blackwineguide/"
     },
 
     // SOUTH KOREA
@@ -663,11 +658,67 @@ function initMap() {
       email: "info@pmspirits.com"
     },
     {
+      position: { lat: 29.8650496, lng: -95.4913793 },
+      title: "Victory Wine Group",
+      address: "6511 W. Little York Road Houston Texas, 77040",
+      url: "http://www.victorywinegroup.com/",
+      email: "info@victorywinegroup.com"
+    },
+    // SINGAPOUR
+    {
       position: { lat: 1.2800209, lng: 103.8449744 },
       title: "Galiena",
       address: "Telok Ayer St, SG Singapore",
       url: "https://www.galiena.sg",
       email: "sales@galiena.sg"
+    },
+
+    // MEXIQUE
+    {
+      position: { lat: 19.3910036, lng: -99.2840386 },
+      title:"Pompette wines & spirits",
+      address: "420 Lenox Avenue, New York, NY 10037",
+      url: "https://www.pompettewines.com/",
+      email: "contact@pompettewines.com/"
+    },
+    // Brésil
+    {
+      position: { lat: -23.5690425, lng: -46.6620943 },
+      title: "De la Croix vinhos",
+      address: "678 - Casa de Vila 1,<br/>Cerqueira César,<br/>Alameda Lorena - Jardins,<br/>São Paulo - SP, 01424-002, Brazil",
+      email: "contato@delacroixvinhos.com.br",
+      url: "https://www.delacroixvinhos.com.br"
+    },
+    // Grece
+    {
+      position: { lat: 37.9908996, lng: 23.7032342 },
+      title: "Pure Spirit Wines",
+      email: "gk@purespiritwines.com",
+      url: "https://purespiritwines.com"
+    },
+    // Lettonie
+    {
+      position: { lat: 56.9550762, lng: 24.1259025 },
+      title: "Lowine",
+      address: "Martas iela 9, Centra rajons,<br/> Rīga, LV-1011, Latvia",
+      email: "stas@lowine.lv",
+      url: "https://lowine.lv/"
+    },
+    // Belarus
+    {
+      position: { lat: 53.8847207, lng: 27.5231578 },
+      title: "CIDRE.BY",
+      email: "mail@cidre.by",
+      url: "https://www.instagram.com/cidre.by/"
+    },
+     // Slovenie
+     {
+      position: { lat: 46.0469692, lng: 14.502967 },
+      title: "SUKLJE",
+      address: "Breg 10, 1000 Ljubljana, Slovenia",
+      email: "info@suklje.com",
+      url: "http://winebar.suklje.com/",
+      social: "https://www.instagram.com/winebarsuklje/"
     }
   ];
 
@@ -700,6 +751,9 @@ function initMap() {
           : '') +
         (d.url
           ? '<dl><dt><strong>Site internet</strong></dt><dd><a href="' + d.url+ '" target="_blank">' + d.url+'</a></dd></dl>' 
+          : '') +
+        (d.social
+          ? '<dl><dt><strong>Réseau social</strong></dt><dd><a href="' + d.social+ '" target="_blank">' + d.social+'</a></dd></dl>' 
           : '') +
           "</p>" +
         "</div>"
