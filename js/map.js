@@ -684,10 +684,9 @@ function initMap() {
     // MEXIQUE
     {
       position: { lat: 19.3910036, lng: -99.2840386 },
-      title:"Pompette wines & spirits",
-      address: "420 Lenox Avenue, New York, NY 10037",
-      url: "https://www.pompettewines.com/",
-      email: "contact@pompettewines.com/"
+      title:"Pompette Sidra",
+      social: "https://www.instagram.com/pompette_sidra",
+      email: "pirouettedf@gmail.com/"
     },
     // Brésil
     {
