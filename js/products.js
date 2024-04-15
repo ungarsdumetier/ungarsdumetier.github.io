@@ -2,7 +2,7 @@ function initProducts() {
   var products = [
     {
       title: "Perlant jus de pommes à Sydre",
-      category: "Produit de soif - 330ml ou 750ml",
+      category: "Produit de soif - 330 ou 750ml",
       caption: "Douceur développant les arômes primaires et doux épices des fruits à cidre. Au plaisir dès le petit déjeuner (viennoiserie etc...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
       smallImage: "images/produits/pomme-perlant.jpg",
       detailsImage: "images/produits/pomme-perlant-details.jpg",
@@ -39,7 +39,7 @@ function initProducts() {
     {
       title: "Sidre brut",
       category: "Produit de soif - 750ml",
-      caption: "Cidre classique extra brut, sec - <small>(7%/vol)</small> Idéal avec de la charcuterie",
+      caption: "Cidre classique extra brut, sec - <small>(7%/vol)</small>Idéal avec de la charcuterie",
       smallImage: "images/produits/sidre-brut.jpg",
       detailsImage: "images/produits/sidre-brut-details.jpg",
       seeMoreUrl: "",
