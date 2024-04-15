@@ -39,7 +39,7 @@ function initProducts() {
     {
       title: "Sidre brut",
       category: "Produit de soif - 750ml",
-      caption: "Cidre classique extra brut, sec... - <small>(7%/vol)</small>Idéal avec de la charcuterie",
+      caption: "Cidre classique extra brut, sec - <small>(7%/vol)</small>Idéal avec de la charcuterie",
       smallImage: "images/produits/sidre-brut.jpg",
       detailsImage: "images/produits/sidre-brut-details.jpg",
       seeMoreUrl: "",
