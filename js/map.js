@@ -317,7 +317,7 @@ function initMap() {
   var distributors = [
     // FRANCE
     {
-      position: { lat: 47.3680556, lng: 0.8872843},
+      position: { lat: 47.3680556, lng: 0.8872843 },
       title: "Bouquet de loire",
       description: "Distribution aux professionnels et informations cavistes, restaurants, épiceries fines aux particuliers<br/>",
       address: "32 route de Montlouis-la taille loiseau<br/>37270 Saint Martin Le Beau",
@@ -353,14 +353,6 @@ function initMap() {
       title: "Kate & Kon",
       url: "http://www.kateandkon.com",
       email: "hallo@kateandkon.com"
-    },
-
-    // UK
-    {
-      position: { lat: 51.2192077, lng: -0.5794526 },
-      title: "Les caves de Pyrene",
-      url: "http://www.lescaves.co.uk",
-      email: "sales@lescaves.co.uk"
     },
 
     // SPAIN
@@ -467,11 +459,7 @@ function initMap() {
       url: "http://www.lescaves.it",
       email: "info@lescaves.it"
     },
-    {
-      position: { lat: 45.7078472, lng: 9.676777 },
-      title: "Degusto Birra e Cucina",
-      email: "degustobirraecucina@gmail.com"
-    },
+
 
     // CANADA
     {
@@ -486,16 +474,7 @@ function initMap() {
       url: "http://www.lcbo.com",
       email: "twitter@thelivingvine.ca"
     },
-    {
-      position: { lat: 49.279582, lng: -123.130161 },
-      title: "Marquis Wine Cellars",
-      url: "http://www.marquis-wines.com"
-    },
-    {
-      position: { lat: 49.8920596, lng: -97.1986999 },
-      title: "Manitiba Liquors & Lotteries",
-      url: "http://www.mbll.ca"
-    },
+
     {
       position: { lat: 43.6083558, lng: -79.5509032 },
       title: "The living vine",
@@ -588,20 +567,6 @@ function initMap() {
       email: "075l@wineandonly.ru"
     },
 
-    // BRAZIL
-    {
-      position: { lat: -20.1701878, lng: -40.2351076 },
-      title: "Wine.com BR",
-      url: "http://www.wine.com.br"
-    },
-
-    // CHILE
-    {
-      position: { lat: -33.4533624, lng: -70.714213 },
-      title: "Edwards Fine Wines Limitada Commercial",
-      email: "dedward@uc.cl"
-    },
-
     // USA
     {
       position: { lat: 37.8475623, lng: -122.2941855 },
@@ -643,20 +608,9 @@ function initMap() {
       url: "http://www.newfrancewine.net"
     },
     {
-      position: { lat: 39.7901385, lng: -86.1037996 },
-      title: "Vanguard Wines",
-      url: "http://www.vanguardwines.com",
-      email: "info@vanguardwines.com"
-    },
-    {
       position: { lat: 39.1439091, lng: -75.9470746 },
       title: "Robert Panzer Selection",
       email: "robertpanzer@hotmail.com"
-    },
-    {
-      position: { lat: 42.2733151, lng: -83.7727088 },
-      title: "First Tier Import",
-      url: "http://www.firsttierimports.com"
     },
     {
       position: { lat: 40.7087364, lng: -73.9292268 },
@@ -684,10 +638,17 @@ function initMap() {
     // MEXIQUE
     {
       position: { lat: 19.3910036, lng: -99.2840386 },
-      title:"Pompette Sidra",
+      title: "Pompette Sidra",
       social: "https://www.instagram.com/pompette_sidra",
-      email: "pirouettedf@gmail.com/"
+      email: "pirouettedf@gmail.com"
     },
+    {
+      position: { lat: 20.9857971, lng: -98.6180976 },
+      title: "Renaud Lignelet",
+      email: "renaud.lignelet@hotmail.com"
+    },
+
+
     // Brésil
     {
       position: { lat: -23.5690425, lng: -46.6620943 },
@@ -703,33 +664,34 @@ function initMap() {
       email: "gk@purespiritwines.com",
       url: "https://purespiritwines.com"
     },
-    // Lettonie
+
+    // Slovenie
     {
-      position: { lat: 56.9550762, lng: 24.1259025 },
-      title: "Lowine",
-      address: "Martas iela 9, Centra rajons,<br/> Rīga, LV-1011, Latvia",
-      email: "stas@lowine.lv",
-      url: "https://lowine.lv/"
-    },
-    // Belarus
-    {
-      position: { lat: 53.8847207, lng: 27.5231578 },
-      title: "CIDRE.BY",
-      email: "mail@cidre.by",
-      url: "https://www.instagram.com/cidre.by/"
-    },
-     // Slovenie
-     {
       position: { lat: 46.0469692, lng: 14.502967 },
       title: "SUKLJE",
       address: "Breg 10, 1000 Ljubljana, Slovenia",
       email: "info@suklje.com",
       url: "http://winebar.suklje.com/",
       social: "https://www.instagram.com/winebarsuklje/"
+    },
+    {
+      position: { lat: 45.6662554, lng: 14.8039985 },
+      title: "Vinska klet Šuklje",
+      address: "56 Gornja Lokvica 8330 Metlika",
+      email: "guillaume@antalick.fr",
+      url: "http://winebar.suklje.com/",
+    },
+
+    // Israel
+    {
+      position: { lat: 32.2677983, lng: 34.8402778 },
+      title: "Julian 6",
+      email: "yacovbh@julian6.com",
+      url: "https://julian6.com/",
     }
   ];
 
-  distributors.map(function(d) {
+  distributors.map(function (d) {
     var marker = new google.maps.Marker({
       position: d.position,
       map: map,
@@ -747,29 +709,29 @@ function initMap() {
         "</h4>" +
         "<p>" +
         (d.description ? "<span>" + d.description + "</span>" : "") +
-        (d.address 
-          ? '<dl><dt><strong>Adresse</strong></dt><dd>' + d.address + '</dd></dl>' 
-          : '') + 
+        (d.address
+          ? '<dl><dt><strong>Adresse</strong></dt><dd>' + d.address + '</dd></dl>'
+          : '') +
         (d.phone
-          ? '<dl><dt><strong>Téléphone</strong></dt><dd><a href="tel://' + d.phone+ '">' + d.phone+'</a></dd></dl>' 
+          ? '<dl><dt><strong>Téléphone</strong></dt><dd><a href="tel://' + d.phone + '">' + d.phone + '</a></dd></dl>'
           : '') +
         (d.email
-          ? '<dl><dt><strong>Email</strong></dt><dd><a href="mailto://' + d.email+ '">' + d.email+'</a></dd></dl>' 
+          ? '<dl><dt><strong>Email</strong></dt><dd><a href="mailto://' + d.email + '">' + d.email + '</a></dd></dl>'
           : '') +
         (d.url
-          ? '<dl><dt><strong>Site internet</strong></dt><dd><a href="' + d.url+ '" target="_blank">' + d.url+'</a></dd></dl>' 
+          ? '<dl><dt><strong>Site internet</strong></dt><dd><a href="' + d.url + '" target="_blank">' + d.url + '</a></dd></dl>'
           : '') +
         (d.social
-          ? '<dl><dt><strong>Réseau social</strong></dt><dd><a href="' + d.social+ '" target="_blank">' + d.social+'</a></dd></dl>' 
+          ? '<dl><dt><strong>Réseau social</strong></dt><dd><a href="' + d.social + '" target="_blank">' + d.social + '</a></dd></dl>'
           : '') +
-          "</p>" +
+        "</p>" +
         "</div>"
     });
-    marker.addListener("click", function() {
+    marker.addListener("click", function () {
       infowindow.open(map, marker);
     });
 
-    map.addListener("click", function() {
+    map.addListener("click", function () {
       infowindow.close(marker);
     });
   });
