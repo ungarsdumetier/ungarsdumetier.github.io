@@ -1812,7 +1812,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 2rem;
-    color: rgba(255, 255, 255, 0.66);
+    color: #bcc0c4;
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
@@ -1826,6 +1826,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
+    margin-bottom: 0;;
     color: #FFFFFF;
 }
 
@@ -3679,3 +3680,7 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+.highlight {
+    margin-top: 10rem;
+}
