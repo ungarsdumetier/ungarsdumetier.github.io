@@ -3017,6 +3017,11 @@ html.no-csstransitions .home-content__main {
     width: 100%;
 }
 
+#find_us {
+    height: 600px;
+    width: 100%;
+}
+
 
 /* ===================================================================
  * # contact 
@@ -3112,6 +3117,11 @@ html.no-csstransitions .home-content__main {
 .contact-content h5 {
     margin-top: 0;
     color: #39b54a;
+}
+
+.contact-content > div {
+    position: absolute;
+    top: 0;
 }
 
 .contact-content input[type="email"],
@@ -3215,6 +3225,10 @@ html.no-csstransitions .home-content__main {
     display: inline-block;
     margin: 0;
     font-size: 2rem;
+}
+
+.contact-social.large {
+    font-size: 5rem;
 }
 
 .contact-social li {
