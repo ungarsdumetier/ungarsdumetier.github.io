@@ -470,11 +470,6 @@ function initDistributors() {
       title: "Etre gourmet sprl",
       url: "http://www.bieresgourmet.be"
     },
-    {
-      position: { lat: 50.7336548, lng: 4.6440095 },
-      title: "AME BVBA",
-      url: "http://www.dewijnwinkel.be"
-    },
 
     // PORTUGAL
     {
