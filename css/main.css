@@ -2240,7 +2240,50 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .about-stats {
     text-align: center;
+    margin-top: 4.2rem;
+    padding-top: 7.2rem;
+    text-align: center;
+    position: relative;
 }
+
+.about-stats::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.about-stats .slideshow {
+    margin: 0 10%;
+}
+
+.about-stats .slideshow p {
+    font-family: "lora-regular", serif;
+    font-size: 3rem;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 6rem;
+}
+
+.about-stats .slideshow__slide {
+    padding: 0 0 3rem 0;
+}
+
+.about-stats .slideshow__avatar {
+    height: 8.4rem;
+    width: 8.4rem;
+    border-radius: 50%;
+    margin: 0 auto 1.2rem auto;
+}
+
 
 .stats__col {
     margin: 5.4rem 0;
