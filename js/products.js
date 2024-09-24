@@ -99,24 +99,6 @@ function initProducts() {
       seeMoreUrl: "/corme.html",
       seeMoreTitle: ""
     },
-    // {
-    //   title: "Sydre Glace",
-    //   category: "Gastronomie",
-    //   caption: "En vieillissement",
-    //   smallImage: "images/produits/poire-granit-grand-cru.jpg",
-    //   detailsImage: "images/produits/poire-granit-grand-cru.jpg",
-    //   seeMoreUrl: "",
-    //   seeMoreTitle: ""
-    // },
-    // {
-    //   title: "Poiré Glace",
-    //   category: "Gastronomie",
-    //   caption: "En vieillissement",
-    //   smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
-    //   detailsImage: "images/produits/sydre-argelette-grand-cru.jpg",
-    //   seeMoreUrl: "",
-    //   seeMoreTitle: ""
-    // },
     {
       title: "Calvados Argelette",
       category: "Gastronomie - 500ml",
