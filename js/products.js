@@ -2,8 +2,8 @@ function initProducts() {
   var products = [
     {
       title: "Perlant jus de pommes à Sydre",
-      category: "Produit de soif - 330 ou 750ml",
-      caption: "Douceur développant les arômes primaires et doux épices des fruits à cidre. Au plaisir dès le petit déjeuner (viennoiserie etc...) mais surtout mis en valeur sur bon nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquets à Wattignies...<br/>A vous de voir et boire",
+      category: "75cl et 33cl",
+      caption: "Douceur développant les arômes primaires et doux épices des pommes à sydre. Au  plaisir dès le petit déjeuner (viennoiserie…) mais surtout mis en valeur sur bon  nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquet  à Wattignies. A vous de voir et boire !",
       smallImage: "images/produits/pomme-perlant.jpg",
       detailsImage: "images/produits/pomme-perlant-details.jpg",
       seeMoreUrl: "",
@@ -11,7 +11,7 @@ function initProducts() {
     },
     {
       title: "Sidre nouvelle vague",
-      category: "Produit de soif - 330ml, fût 5 ou 20L",
+      category: "330ml ou fût de 20L",
       caption: "Sidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - <small>(5%/vol)</small>",
       smallImage: "images/produits/sidre-nouvelle-vague.jpg",
       detailsImage: "images/produits/sidre-nouvelle-vague-details.jpg",
@@ -21,7 +21,7 @@ function initProducts() {
     {
       title: "Sidre tendre",
       category: "Produit de soif - 750ml",
-      caption: "Cidre doux fruité acidulé aux arômes de pommes sauvages de l'automne. Peu alcoolisé - <small>(3.5%/vol)</small>. <br/>S'accompagne parfaitement sur les desserts et viennoiserie",
+      caption: "Cidre tendre fruité aux arômes primaires de pommes à cidre épicées.<br/>Accompagnement idéal avec les desserts et les viennoiseries.",
       smallImage: "images/produits/sidre-tendre.jpg",
       detailsImage: "images/produits/sidre-tendre-details.jpg",
       seeMoreUrl: "",
@@ -30,7 +30,7 @@ function initProducts() {
     {
       title: "Sidre brut tendre",
       category: "Produit de soif - 750ml",
-      caption: "Cidre demi-sec de bel équilibre, fruit et matière, bon compromis entre le brut et le tendre avec un peu de sucre résiduel - 5%/vol<br/>Sur une cuisine simple pouvant accompagner tout le repas.",
+      caption: " Cidre demi-sec avec un bel équilibre fruit et matière, un bon compromis entre le brut et le tendre avec peu de sucre résiduel.<br/>Sur une cuisine simple pouvant accompagner tout le repas.",
       smallImage: "images/produits/sidre-brut-tendre.jpg",
       detailsImage: "images/produits/sidre-brut-tendre-details.jpg",
       seeMoreUrl: "",
@@ -39,7 +39,7 @@ function initProducts() {
     {
       title: "Sidre brut",
       category: "Produit de soif - 750ml",
-      caption: "Cidre classique extra brut, sec - <small>(7%/vol)</small>Idéal avec de la charcuterie",
+      caption: "Cidre classique de soif, sec, vif, acidulé et rafraîchissant. Cidre de bonne garde. Accompagnement idéal avec de la charcuterie, des volailles ou des abats.",
       smallImage: "images/produits/sidre-brut.jpg",
       detailsImage: "images/produits/sidre-brut-details.jpg",
       seeMoreUrl: "",
@@ -48,7 +48,7 @@ function initProducts() {
     {
       title: "Poiré 33cl",
       category: "Produit de soif - 330ml",
-      caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - <small>(4%/vol)</small><br/>En apéritif, avec les produits de la mer et les fromages.",
+      caption: "Poiré de soif demi-sec, acidulé avec une robe pâle, tout en fruit et fraîcheur. Accompagnement idéal en apéritif, avec les produits de la mer et les fromages.",
       smallImage: "images/produits/poire-33.jpg",
       detailsImage: "images/produits/poire-33-details.jpg",
       seeMoreUrl: "",
@@ -56,8 +56,8 @@ function initProducts() {
     },
     {
       title: "Poiré authentique",
-      category: "Produit de traditionnelle cuisine - 750ml et magnum 1500ml",
-      caption: "Poiré de soif demi-sec acidulé, robe pâle selon le millésime tout en fruit et fraîcheur - <small>(4%/vol)</small><br/>En apéritif, avec les produits de la mer et les fromages.",
+      category: "Produit de soif 750ml et magnum 1500ml",
+      caption: "Poiré classique de soif, acidulé, sur le fruit (poires à poiré) et la fraîcheur. Robe pâle telle un chenin.<br/>Accompagnement idéal en apéritif, avec les produits de la mer ou les fromages (chèvres et fromages d’Auvergne).",
       smallImage: "images/produits/poire-authentique.jpg",
       detailsImage: "images/produits/poire-authentique-details.jpg",
       seeMoreUrl: "",
@@ -75,7 +75,7 @@ function initProducts() {
     {
       title: "Sydre Argelette",
       category: "Gastronomie - 750ml et magnum 1500ml",
-      caption: "L'Argelette, désignant le cailloux schisteux, est une cuvée complexe composée du maximum de variétés issues de vieux arbres dans le soucis de respecter le millésime.<br/>Sydre vineux de très bonne garde grâce à son équilibre entre matière, acidité, rondeur, ampleur et minéralité. - <small>(5%/vol)</small> selon millésime",
+      caption: "Nom donné par les « Anciens », l’argelette désigne le caillou schisteux rouge (fer).  Cuvée gastronomique complexe composée d’un maximum de variétés amères,douces et acidulées, de manière identique chaque année avec pour seule nuance, le millésime (température, luminosité, etc.). Cidre vineux de grande garde grâce à son équilibre.<br/>Accompagnement idéal avec des produits nobles aux « touchés » crémeux, doux  épicés, des saveurs aigres- douces, des fromages et des desserts aux beurre,vanille, caramel, chocolat…",
       smallImage: "images/produits/sydre-argelette-grand-cru.jpg",
       detailsImage: "images/produits/sydre-argelette-grand-cru-details.jpg",
       seeMoreUrl: "",
@@ -84,7 +84,7 @@ function initProducts() {
     {
       title: "Poiré Granit",
       category: "Gastronomie - 750ml et magnum 1500ml",
-      caption: "\"Granit\" définit la roche où les racines du poirier plongent dans les failles de granit. Le système racinaire en profondeur du poirier marque sa minéralité. Cet aspect est davantage présent sur cette cuvée issue d'arbres très anciens. Assemblage d'un maximum de variétés dans le respect du millésime - <small>(4%/vol)</small><br/>S'accompagne de la grande cuisine des produits nobles, en apéritif avant de grands vins blancs ou en fin de repas.",
+      caption: "Roche métamorphique (granit et schiste), le granit est issu du massif armoricain du  Briovérien qui définit le sous-sol d’environ 200 m de large (mi-pente). Le système  racinaire du poirier, allant en profondeur en pivot (1- 2) marque le poiré de son intense minéralité et de sa singularité (patrimoine végétal unique avec des arbres tricentenaires) que l’on retrouve dans notre région sud-Manche, ouest-Orne et  nord-Mayenne. Poirification identique à la sydrification du Sydre argelette avec un assemblage d’un maximum de variétés et une nuance chaque année, liée au millésime. Poiré vineux, crémeux par sa complexité (et non résiduel) et de très grande garde.<br/> Accompagnement idéal en apéritif avant de grands vins blancs, en fin de repas ou avec des produits de la mer. À cela, s’ajoute également les accords du sydre argelette et laisse aussi libre cours à la découverte.",
       smallImage: "images/produits/poire-granit-grand-cru.jpg",
       detailsImage: "images/produits/poire-granit-grand-cru-details.jpg",
       seeMoreUrl: "",
@@ -93,7 +93,7 @@ function initProducts() {
     {
       title: "Cormé",
       category: "Gastronomie - 500ml",
-      caption: "Boisson du Maine du 15ème siècle produite familialement jusqu'aux années 50 et remis à la \"technique du jour\" du Domaine Eric Bordelet avec quelques variétés de Cormes",
+      caption: "BBoisson du Maine du 15ème siècle produite familialement jusqu’aux années 5. et remis à la technique du jour du Domaine Eric Bordelet avec 12 variétés de cormes.",
       smallImage: "images/produits/corme-banner.jpg",
       detailsImage: "images/produits/corme-details.jpg",
       seeMoreUrl: "/corme.html",
@@ -118,11 +118,20 @@ function initProducts() {
     //   seeMoreTitle: ""
     // },
     {
-      title: "Calvados",
-      category: "Gastronomie",
-      caption: "En vieillissement en fûts, \"réduction naturelle en cave sous-terrainne\"",
-      smallImage: "images/produits/calvados.jpg",
-      detailsImage: "images/produits/calvados-details.jpg",
+      title: "Calvados Argelette",
+      category: "Gastronomie - 500ml",
+      caption: "",
+      smallImage: "images/produits/calvados-argelette.jpg",
+      detailsImage: "images/produits/calvados-argelette-details.jpg",
+      seeMoreUrl: "",
+      seeMoreTitle: ""
+    },
+    {
+      title: "Calvados Granit",
+      category: "Gastronomie - 500ml",
+      caption: "",
+      smallImage: "images/produits/calvados-granit.jpg",
+      detailsImage: "images/produits/calvados-granit-details.jpg",
       seeMoreUrl: "",
       seeMoreTitle: ""
     }
