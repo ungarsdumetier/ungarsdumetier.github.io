@@ -10,6 +10,15 @@ function initProducts() {
       seeMoreTitle: ""
     },
     {
+      title: "Perlant jus de poire",
+      category: "75cl et 33cl",
+      caption: "Douceur développant les arômes primaires et doux épices des pommes à sydre. Au  plaisir dès le petit déjeuner (viennoiserie…) mais surtout mis en valeur sur bon  nombre de desserts recherchés par exemple la tarte mandarine façon Alex Croquet  à Wattignies. A vous de voir et boire !",
+      smallImage: "images/produits/perlant-poire.jpg",
+      detailsImage: "images/produits/perlant-poire-details.png",
+      seeMoreUrl: "",
+      seeMoreTitle: ""
+    },
+    {
       title: "Sidre nouvelle vague",
       category: "330ml ou fût de 20L",
       caption: "Sidre de \"soif\" en fût de 5L (1.5bar) et en 20L slimline (3 à 4 bars, derrière le comptoir).<br/>Au verre pétillant léger de table, au bar, au buffet, au picnic, en terrasse etc...<br/>Equilibre entre le brut et demi-sec accompagnant une multitiude de mets - <small>(5%/vol)</small>",
